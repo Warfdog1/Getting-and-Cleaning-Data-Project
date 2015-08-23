@@ -18,7 +18,7 @@ unzip("getdata.zip", list=TRUE)
 # to organize the data into usable information
 datapath <- file.path("./getdata" , "UCI HAR Dataset")
 files<-list.files(datapath, recursive=TRUE)
-
+files
 
 # Read the files into the variables of interest.
 
@@ -81,7 +81,7 @@ names(Data)<-gsub("BodyBody", "Body", names(Data))
 library(plyr)
 finaldata <- aggregate(. ~Subject + Activity_Name, Data, mean)
 finaldata <- finaldata[order(finaldata$Subject, finaldata$Activity_Name), ]
-write.table(finaldata, file = "./tidydata.txt", header=TRUE)
+write.table(finaldata, file = "./tidydata.txt", row.names=FALSE, quote = FALSE)
 
 
 
