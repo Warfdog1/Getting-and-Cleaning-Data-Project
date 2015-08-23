@@ -1,13 +1,13 @@
-# Getting-and-Cleaning-Data-Project
+﻿## Getting-and-Cleaning-Data-Project
 
-# Project Background
+## Project Background
 
 This purpose of this project is to demonstrate the collection and cleaning of a data set. Once the data set has been created, it then can be used for further analysis. The full description and contents of the data used in this project can be found at the following url: 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 The data used for this project was downloaded from the following url:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-# Project Summary
+## Project Summary
 
 The following is a summary description of the project instructions.
 
@@ -25,7 +25,10 @@ You should create one R script called run_analysis.R that does the following:
 
 The end result of this process is a dataset entitled “tidydata.txt”.
 
-#Additional Information
+To run this script, simple download run_analysis.R in the R program. The script uses the "./" (current directory) as the directory. 
+Run the program.
+
+## Additional Information
 
 You can find additional information about the variables, data and transformations in the CodeBook.MD file
 
